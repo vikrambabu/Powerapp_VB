@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8709cb58-7026-4f0e-9bf6-5953abc1fd3b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vb_name" select="1" icon="1" preview="1">
+        <row name="result" id="vb_caseid">
+          <cell name="vb_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vb_case">
+          <attribute name="vb_caseid" />
+          <attribute name="vb_name" />
+          <attribute name="createdon" />
+          <order attribute="vb_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="vb_name" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Cases" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
