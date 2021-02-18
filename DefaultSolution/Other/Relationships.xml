@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <EntityRelationship Name="lk_vb_case_createdby" />
-  <EntityRelationship Name="lk_vb_case_modifiedby" />
-  <EntityRelationship Name="organization_vb_case" />
-  <EntityRelationship Name="vb_Case_ServiceProviderId_vb_serviceprovi" />
-</EntityRelationships>
