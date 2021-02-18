@@ -22,7 +22,7 @@
                     <row>
                       <cell id="{6cf9789d-b216-4902-ac39-63e8f8a2c9be}">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Entity" languagecode="1033" />
                         </labels>
                         <control id="vb_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vb_name" />
                       </cell>
@@ -49,6 +49,14 @@
                           <label description="Billable" languagecode="1033" />
                         </labels>
                         <control id="vb_billable_flag" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="vb_billable_flag" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2df76ce5-d548-4dd1-9095-6f38ced8368a}" locklevel="0">
+                        <labels>
+                          <label description="Service Provider Id" languagecode="1033" />
+                        </labels>
+                        <control id="vb_serviceproviderid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vb_serviceproviderid" disabled="false" />
                       </cell>
                     </row>
                   </rows>

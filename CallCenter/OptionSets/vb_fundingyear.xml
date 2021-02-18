@@ -11,11 +11,6 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="108580000">
-      <labels>
-        <label description="2020" languagecode="1033" />
-      </labels>
-    </option>
     <option value="108580001">
       <labels>
         <label description="2019" languagecode="1033" />
@@ -24,6 +19,21 @@
     <option value="108580002">
       <labels>
         <label description="2018" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580003">
+      <labels>
+        <label description="2016" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580004">
+      <labels>
+        <label description="2015" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580005">
+      <labels>
+        <label description="2014" languagecode="1033" />
       </labels>
     </option>
   </options>
