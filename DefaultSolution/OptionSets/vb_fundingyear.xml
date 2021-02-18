@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="vb_fundingyear" localizedName="Funding Year" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Funding Year" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="108580001">
+      <labels>
+        <label description="2019" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580002">
+      <labels>
+        <label description="2018" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580003">
+      <labels>
+        <label description="2016" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580004">
+      <labels>
+        <label description="2015" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="108580005">
+      <labels>
+        <label description="2014" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
